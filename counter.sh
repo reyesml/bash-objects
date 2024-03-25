@@ -1,6 +1,19 @@
 #!/usr/bin/env bash
-
-set -e
+#/ This file demonstrates a technique for simulating objects within Bash.
+#/ THESE ARE NOT REAL OBJECTS. They are an illusion. That being said, I
+#/ will refer to them as "objects" for simplicity sake.
+#/
+#/ Usage:
+#/  source counter.sh
+#/
+#/  # instantiate a new counter
+#/  build_counter
+#/  my_counter=$(get_counter)
+#/
+#/  # make calls against the counter
+#/  $my_counter.increment
+#/  $my_counter.increment
+#/  $my_counter.get_count
 
 last_instance_id=""
 
